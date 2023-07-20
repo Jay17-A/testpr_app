@@ -1,0 +1,24 @@
+# Generated files
+target/
+
+# Rust/Cargo specific files
+Cargo.lock
+Cargo.toml.orig
+Cargo.toml.bkp
+**/*.rs.bk
+
+# Compiled output
+*.rs.bk
+debug.log
+*.bak
+
+# Dependency directories
+**/target/
+**/Cargo.lock
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# Build artifacts
+build/
